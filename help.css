@@ -1,0 +1,81 @@
+.help-container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #f4a0a0;
+	border: 1px solid #040303;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#open-help {
+	background-color: #337ab7;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+
+#open-help:hover {
+	background-color: #23527c;
+}
+
+#help-content {
+	position: fixed;
+	top: 60px;
+	right: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 20px;
+	z-index: 1;
+}
+
+
+/*--------------------index---------------*/
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+
+#online {
+    font-size: 30px;
+    color: #FF6347; /* Tomato color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #591b8b;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #FF6347; /* Tomato color */
+    border-radius: 5px;
+}

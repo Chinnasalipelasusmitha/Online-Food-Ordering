@@ -1,0 +1,121 @@
+.home-container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: white#db0a72;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin-top: 20px;
+    color: rgb(255, 0, 25);
+
+}
+
+p {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+button {
+	background-color: #337ab7;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #23527c;
+}
+
+.features {
+	margin-top: 40px;
+}
+
+.features h2 {
+	margin-bottom: 10px;
+	color:rgb(227, 28, 28);
+}
+
+.features ul {
+	list-style: none;
+	margin: 0;
+	padding: 10;
+	font-size: 20px;
+}
+
+.features li {
+	margin-bottom: 10px;
+}
+
+.testimonials {
+	margin-top: 60px;
+}
+
+.testimonials h2 {
+	margin-bottom: 30px;
+	color:rgb(231, 25, 32);
+}
+
+.testimonials ul {
+	list-style: none;
+	margin: 0%;
+	padding: 10;
+	font-size: 20px;
+}
+
+.testimonials li {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+
+#online {
+    font-size: 30px;
+    color: #FF6347; /* Tomato color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #591b8b;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #FF6347; /* Tomato color */
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+
+#online {
+    font-size: 30px;
+    color: #FF6347; /* Tomato color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #591b8b;
+    font-weight: bold;
+    
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #FF6347; /* Tomato color */
+    border-radius: 5px;
+}
+
+.hero-image {
+    background-image: url('https://www.foodiv.com/wp-content/uploads/2023/06/online-ordering-business.jpg'); 
+    height: 680px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-top: -15px;
+}
+
+.hero-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-image h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px;
+    color: rgb(148, 244, 14);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    .hero-image h2 {
+        font-size: 2em;
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+    #online {
+        font-size: 1.8em;
+    }
+    nav ul li {
+        margin: 0 5px;
+    }
+    .hero-image h2 {
+        font-size: 1.5em;
+    }
+}
+
